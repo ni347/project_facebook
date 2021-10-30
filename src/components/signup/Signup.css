@@ -1,0 +1,104 @@
+
+.signup{
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: center;
+}
+.signup_box{
+    padding: 16px;
+    margin-left: 10px;
+    width: 435px;
+    border-radius: 7px;
+    height: fit-content;
+    box-shadow: 0px 4px 10px #dadde1;
+    font-family: "Arial";
+    background-color: #fff;
+}
+.signup_box > h1{
+    font-size: 32px;
+    margin-bottom: -0.5rem;
+}
+.signup_box > p{
+    font-size: 15px;
+    color: grey
+}
+.line{
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.name{
+    padding: 12px;
+    margin-right: 8px;
+    margin-left: 10px;
+    width: 45%;
+    font-size: 16px;
+    border: 1.25px solid #dadbdf;
+}
+.signup_box > form > center > input{
+    width: 90%;
+    margin-top: 15px;
+    padding: 12px;
+    font-size: 15px;
+    border: 1.25px solid #dadbdf;
+}
+.dob{
+    font-size: 18px;
+    font-weight:600;
+    margin-left: 10px;
+}
+.date{
+    width: 125px;
+    margin-left: 10px;
+    /* margin-top: -1rem; */
+    height: 2rem;
+    border-radius: 5px;
+}
+.gender_text{
+    font-size: 18px;
+    font-weight:600;
+    margin-left: 10px;
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gender_box{
+    width: 90px;
+    margin-right: 10px;
+    padding: 16px;
+    /* height: 30px; */
+    border-radius: 10px;
+    border: 2px solid #cfe2c4;
+    color: grey;
+}
+
+.policy_text{
+    font-size: 11px;
+    color: #777777;
+    font-weight: 400;
+}
+.button{
+    background-color: rgb(12, 112, 12);
+    width: 190px;
+    color: #fff;
+    border: none;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(13, 167, 26);
+}
