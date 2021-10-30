@@ -139,11 +139,35 @@
     margin-bottom: 10px;
 }
 
-.policy_text{
-    font-size: 11px;
-    color: #777777;
-    font-weight: 400;
+.gender_box label{
+    margin-right: 55px;
 }
+
+.gender_box input{
+    margin-top: 5px;
+}
+
+.policy_text{
+    font-size: 12px;
+  color: #1c1e21;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.policy_text span{
+    color: #385898;
+}
+
+.register__login {
+    color: #1877f2;
+      font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 20px;
+      margin-bottom: 20px;
+  }
+
 .button{
     cursor: pointer;
   display: inline-block;

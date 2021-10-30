@@ -276,15 +276,21 @@ function Signup() {
                         </div>
                     </div>
 
-                    <p className="policy_text">By clicking Signup, you agree to our terms, Data Policy and Cookie Policy. You
+                    <p className="policy_text">
+                        By clicking Signup, you agree to our{" "} 
+                        <span>Terms, Data Policy</span> and <span>Cookie Policy</span>. You
                         may receive SMS notifications from us and can opt at any time.
                     </p>
                     <center>
-                        <button onClick={Signup} type="submit" className="button">Sign Up</button>
+                        <button
+                         onClick={Signup}
+                         type="submit" 
+                         className="button">Sign Up</button>
                     </center>
 
                     <center>
-                        <Link to="./Signin">Already Have Account?</Link>
+                        <Link to="./Signin">
+                            <p className="register_login">Already Have Account?</p></Link>
                     </center>
                 </form>
             </div>
