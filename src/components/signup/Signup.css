@@ -1,39 +1,66 @@
 
 .signup{
     height: 100%;
-    background-color: aqua;
+    background-color: #E9EBEE;
     display: flex;
     flex-direction: column;
     /* justify-content: flex-end; */
     align-items: center;
 }
 .signup_box{
-    padding: 16px;
-    margin-left: 10px;
-    width: 435px;
-    border-radius: 7px;
-    height: fit-content;
-    box-shadow: 0px 4px 10px #dadde1;
-    font-family: "Arial";
-    background-color: #fff;
+    display: flex;
+  flex-direction: column;
+  border: 1px solid #dddfe2;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  height: fit-content;
+  width: 436px;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
 }
 .signup_box > h1{
-    font-size: 32px;
+    font-size: 24px;
     margin-bottom: -0.5rem;
+    font-weight: 400;
+    color: black;
 }
 .signup_box > p{
     font-size: 15px;
-    color: grey
+  color: #606770;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
 .line{
-    border-bottom: 1px solid grey;
-    margin-bottom: 10px;
+    margin-top: 0 !important;
+    border-bottom: 1px solid #DADDE1 !important;
+    margin-bottom: 20px;
 }
+
 .row{
     display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
+    flex-direction: row;
+    margin-left: 10px;
 }
+
+.row input{
+    height: 35px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 20px;
+  border: 1px solid #dddfe2;
+  color: #1d2129;
+  line-height: 16px;
+  font-size:17px;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 180px;
+}
+
 .name{
     padding: 12px;
     margin-right: 8px;
@@ -43,44 +70,73 @@
     border: 1.25px solid #dadbdf;
 }
 .signup_box > form > center > input{
+    height: 35px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 20px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    line-height: 16px;
+    font-size:17px;
+    vertical-align: middle;
+    margin-right: 10px;
     width: 90%;
-    margin-top: 15px;
-    padding: 12px;
-    font-size: 15px;
-    border: 1.25px solid #dadbdf;
+    margin-left: 10px;
 }
 .dob{
-    font-size: 18px;
-    font-weight:600;
-    margin-left: 10px;
+    font-size: 12px;
+  color: #606770;
+  font-weight: 400;
+  float: left;
+  margin-left: 10px;
 }
-.date{
-    width: 125px;
-    margin-left: 10px;
-    /* margin-top: -1rem; */
-    height: 2rem;
-    border-radius: 5px;
+.date1{
+    margin-left: -70px;
+  margin-right: 10px !important;
+  height: 40px;
+  width: 130px;
+  outline: #CCD0D5;
+  border-radius: 5px;
+  margin-top: 20px;
+  float: left;
+}
+.date2{
+    margin-left: 10px !important;
+  margin-right: 10px !important;
+  height: 40px;
+  width: 130px;
+  outline: #CCD0D5;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  float: left;
 }
 .gender_text{
-    font-size: 18px;
-    font-weight:600;
-    margin-left: 10px;
+    font-size: 12px;
+  color: #606770;
+  font-weight: 400;
+  float: left;
+  margin-left: 10px;
 }
 .gender{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
 }
 
 .gender_box{
-    width: 90px;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid rgba(128, 128, 128, 0.493);
+    border-radius: 5px;
     margin-right: 10px;
-    padding: 16px;
-    /* height: 30px; */
-    border-radius: 10px;
-    border: 2px solid #cfe2c4;
-    color: grey;
+    margin-bottom: 10px;
 }
 
 .policy_text{
@@ -89,15 +145,28 @@
     font-weight: 400;
 }
 .button{
-    background-color: rgb(12, 112, 12);
-    width: 190px;
-    color: #fff;
-    border: none;
-    height: 40px;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 6px;
     cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+  position: relative;
+  text-align: center;
+  text-shadow: none;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  justify-content: center;
+  background-color: #00A400;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 55%;
+  height: 45px;
+  margin-bottom: 20px;
+  color: #fff;
 }
 button:hover{
     background-color: rgb(13, 167, 26);

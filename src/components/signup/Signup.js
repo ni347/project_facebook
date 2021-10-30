@@ -15,6 +15,9 @@ function Signup() {
 
     const Signup = (e) => {
         e.preventDefault();
+        if(birthday[2] >= 2003){
+            return alert("You are not eligible to register to facebook!")
+        }
 
         auth.createUserWithEmailAndPassword(email, password).then((auth) => {
             if (auth.user) {
@@ -82,7 +85,7 @@ function Signup() {
                     <h5 className="dob">Date of Birth</h5>
 
                     <div className="row">
-                        <select className="date" onChange={(e) => setBirthday([...birthday, e.target.value])}>
+                        <select className="date1" onChange={(e) => setBirthday([...birthday, e.target.value])}>
                             <option value="Day"></option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -117,7 +120,7 @@ function Signup() {
                             <option value="31">31</option>
                         </select>
 
-                        <select className="date" onChange={(e) => setBirthday([...birthday, e.target.value])}>
+                        <select className="date2" onChange={(e) => setBirthday([...birthday, e.target.value])}>
                             <option value="Day"></option>
                             <option value="1">Jan</option>
                             <option value="2">Feb</option>
@@ -133,7 +136,7 @@ function Signup() {
                             <option value="12">Dec</option>
                         </select>
 
-                        <select className="date" onChange={(e) => setBirthday([...birthday, e.target.value])}>
+                        <select className="date2" onChange={(e) => setBirthday([...birthday, e.target.value])}>
                             <option value="2018"></option>
                             <option value="2018">2021</option>
                             <option value="2018">2020</option>
