@@ -259,8 +259,12 @@ function Signup() {
                         </select>
                     </div>
 
-                    <h5 className="gender_text">Gender</h5>
+                    <div className="gender_text">
+                    <h5>Gender</h5>
+                    </div>
+
                     <div className="gender">
+
                         <div className="gender_box">
                             <label>Female</label>
                             <input onChange={(e) => setGender(e.target.value)} type="radio" name="gender" value="Female" />
