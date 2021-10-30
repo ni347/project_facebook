@@ -42,6 +42,7 @@ function Signup() {
     }
     return (
         <div className="signup">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" class="register__logo" />
             <div className="signup_box">
                 <h1>Create New Account</h1>
                 <p>It's quick and easy.</p>
@@ -86,7 +87,7 @@ function Signup() {
 
                     <div className="row">
                         <select className="date1" onChange={(e) => setBirthday([...birthday, e.target.value])}>
-                            <option value="Day"></option>
+                            <option value="Day">Day</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -121,7 +122,7 @@ function Signup() {
                         </select>
 
                         <select className="date2" onChange={(e) => setBirthday([...birthday, e.target.value])}>
-                            <option value="Day"></option>
+                            <option value="Month">Month</option>
                             <option value="1">Jan</option>
                             <option value="2">Feb</option>
                             <option value="3">Mar</option>
@@ -137,7 +138,7 @@ function Signup() {
                         </select>
 
                         <select className="date2" onChange={(e) => setBirthday([...birthday, e.target.value])}>
-                            <option value="2018"></option>
+                            <option value="Year">Year</option>
                             <option value="2018">2021</option>
                             <option value="2018">2020</option>
                             <option value="2018">2019</option>
