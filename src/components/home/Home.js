@@ -4,12 +4,9 @@ import { Link } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 import { auth, db } from "../../firebase";
 import "./home.css";
-// import { useStateValue } from "./StateProvider";
 
-import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import Popover from "@mui/material/Popover";
-import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
+import AccountCircle from '@mui/icons-material/AccountCircle';
 
 function Home({ user, selected }) {
   const [notificationsOpen, setNotificationsOpen] = useState(false);
@@ -32,32 +29,6 @@ function Home({ user, selected }) {
 
   const open = Boolean(anchorEl);
   const id = open ? "simple-popover" : undefined;
-
-
-  // useEffect(() => {
-  //   db.collection("posts").onSnapshot((snapshot) => {
-  //     snapshot.docs.map((doc) => {
-  //       if (doc.data().username == user.displayName) {
-  //         db.collection("posts")
-  //           .doc(doc.id)
-  //           .collection("comments")
-  //           .onSnapshot((snapshot) => {
-  //             snapshot.docs.map((doc) => {
-  //               console.log(doc.data());
-  //               if (doc.data().username !== user.displayName) {
-  //                 dispatch({
-  //                   type: "ADD_TO_NOTIFICATIONS",
-  //                   item: {
-  //                     notification: doc.data(),
-  //                   },
-  //                 });
-  //               }
-  //             });
-  //           });
-  //       }
-  //     });
-  //   });
-  // }, [user]);
 
   if (user === false) {
     history.push("");
@@ -252,11 +223,12 @@ function Home({ user, selected }) {
           >
             <a href={{}}>
               <div className="optionDrop">
-                <img
+                {/* <img
                   src="https://i.ibb.co/1zmBtwr/84241059-189132118950875-4138507100605120512-n.jpg"
                   className="Avatar"
                   alt="logo"
-                />
+                /> */}
+                <AccountCircle className="Avatar" style={{ color : "white", fontSize: "60"}}/>
                 <div className="sideinfoDropAvatar">
                   <h1>{user?.displayName}</h1>
                   <p>See your profile</p>
