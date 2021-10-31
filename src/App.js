@@ -2,6 +2,8 @@ import React, {useState, useEffect} from "react";
 import Signin from "./components/signin/Signin";
 import Signup from "./components/signup/Signup";
 import Home from "./components/home/Home";
+import Sidebarleft from "./components/home/Sidebarleft";
+import SidebarRight from "./components/home/SidebarRight"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import {auth } from "./firebase";
@@ -33,6 +35,11 @@ function App() {
 
           <Route path="/Home">
             <Home  user={user}/>
+            <div className="app_page">
+              <Sidebarleft user={user} />
+
+            </div>
+            <SidebarRight />
           </Route>
         </Switch>
       </Router>
