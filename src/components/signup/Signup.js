@@ -297,7 +297,7 @@ function Signup() {
                     </center>
 
                     <center>
-                        <Link to="./Signin">
+                        <Link to="./">
                             <p className="register_login">Already Have Account?</p></Link>
                     </center>
                 </form>
