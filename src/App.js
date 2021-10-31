@@ -39,7 +39,7 @@ function App() {
               <Sidebarleft user={user} />
 
             </div>
-            <SidebarRight />
+            <SidebarRight user={user} />
           </Route>
         </Switch>
       </Router>
