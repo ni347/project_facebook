@@ -35,7 +35,7 @@ function App() {
 
           <Route path="/Home">
             <Home  user={user}/>
-            <div className="app_page">
+            <div className="app__page">
               <Sidebarleft user={user} />
 
             </div>

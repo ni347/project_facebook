@@ -2,7 +2,7 @@ import React from 'react'
 import './SidebarRight.css';
 import Sidebar2Row from './Sidebar2Row';
 
-function SidebarRight() {
+function Sidebarleft() {
     return (
         <div className="sidebar2">
             <div class="hr" />
@@ -24,4 +24,4 @@ function SidebarRight() {
     )
 }
 
-export default SidebarRight
+export default Sidebarleft
