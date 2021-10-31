@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     margin-left: 70%;
-    margin-top: -600px;
+    margin-top: -640px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -32,13 +32,13 @@ h1 {
 }
 
 .searchIcon2 {
-    background-image: url(https://facebook.com/rsrc.php/v3/yH/r/hD_JBkCe96v.png);
+    /* background-image: url(https://facebook.com/rsrc.php/v3/yH/r/hD_JBkCe96v.png); */
     background-size: 33px 1483px;
     background-repeat: no-repeat;
     width: 16px;
     cursor: pointer;
+    margin-top: 10px;
     margin-left: 190px;
-
     height: 16px;
     background-position: 0 -1398px;
     vertical-align: -0.25em;
@@ -50,6 +50,7 @@ h1 {
     background-size: 33px 1483px;
     background-repeat: no-repeat;
     width: 16px;
+    margin-top: 7px;
     float: right;
     height: 16px;
     cursor: pointer;
