@@ -6,6 +6,11 @@ import { auth, db } from "../../firebase";
 import "./home.css";
 // import { useStateValue } from "./StateProvider";
 
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import Popover from "@mui/material/Popover";
+import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
+
 function Home({ user, selected }) {
   const [notificationsOpen, setNotificationsOpen] = useState(false);
   const [profileDown, setProfileDown] = useState(false);
@@ -14,6 +19,20 @@ function Home({ user, selected }) {
   const [users, setUsers] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredUsers, setFilteredUsers] = useState([]);
+
+  const [anchorEl, setAnchorEl] = useState(null);
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const open = Boolean(anchorEl);
+  const id = open ? "simple-popover" : undefined;
+
 
   // useEffect(() => {
   //   db.collection("posts").onSnapshot((snapshot) => {
@@ -207,67 +226,83 @@ function Home({ user, selected }) {
           </svg>
         </div>
 
-        <div class="round" >
-          <i class={`dropdownIcon ${profileDown === true && "blue"}`} />
-          <div class="dropdown-content">
+        <div className="round">
+          <i
+            className={`dropdownIcon ${profileDown === true && "blue"}`}
+            aria-describedby={id}
+            variant="contained"
+            onClick={handleClick}
+          />
+          <Popover
+            id={id}
+            open={open}
+            anchorEl={anchorEl}
+            onClose={handleClose}
+            anchorOrigin={{
+              vertical: "bottom",
+              horizontal: "left",
+            }}
+            
+          >
+            {/* <Typography sx={{ p: 2 }}>The content of the Popover.</Typography> */}
             <a href="#">
-              <div class="optionDrop">
+              <div className="optionDrop">
                 <img
                   src="https://i.ibb.co/1zmBtwr/84241059-189132118950875-4138507100605120512-n.jpg"
-                  class="Avatar"
+                  className="Avatar"
                 />
-                <div class="sideinfoDropAvatar">
+                <div className="sideinfoDropAvatar">
                   <h1>{user?.displayName}</h1>
                   <p>See your profile</p>
                 </div>
               </div>
             </a>
-            <div class="hr" />
+            <div className="hr" />
             <a href="#">
-              <div class="optionDrop">
-                <div class="iconDrop">
-                  <i class="feedback" />
+              <div className="optionDrop">
+                <div className="iconDrop">
+                  <i className="feedback" />
                 </div>
-                <div class="sideinfoDrop">
+                <div className="sideinfoDrop">
                   <h1>Give Feedback</h1>
                   <p>Help us improve the new Facebook</p>
                 </div>
               </div>
             </a>
-            <div class="hr" />
+            <div className="hr" />
             <a href="#">
-              <div class="optionDrop">
-                <div class="iconDrop">
-                  <i class="settings" />
+              <div className="optionDrop">
+                <div className="iconDrop">
+                  <i className="settings" />
                 </div>
                 <h1>Settings & Privacy</h1>
               </div>
             </a>
             <a href="#">
-              <div class="optionDrop">
-                <div class="iconDrop">
-                  <i class="helpAndSupport" />
+              <div className="optionDrop">
+                <div className="iconDrop">
+                  <i className="helpAndSupport" />
                 </div>
                 <h1>Help & Support</h1>
               </div>
             </a>
             <a href="#">
-              <div class="optionDrop">
-                <div class="iconDrop">
-                  <i class="darkMode" />
+              <div className="optionDrop">
+                <div className="iconDrop">
+                  <i className="darkMode" />
                 </div>
                 <h1>Dark Mode</h1>
               </div>
             </a>
             <a href="#">
-              <div class="optionDrop">
-                <div class="iconDrop">
-                  <i class="logout" />
+              <div className="optionDrop">
+                <div className="iconDrop">
+                  <i className="logout" />
                 </div>
                 <h1>Log out</h1>
               </div>
             </a>
-          </div>
+          </Popover>
         </div>
       </div>
     </div>
