@@ -15,6 +15,9 @@ function Signup() {
 
     const Signup = (e) => {
         e.preventDefault();
+        if(firstName === "" || lastName === "" || email === "" || password  === "" || birthday  === "" || gender === ""){
+            return alert("Please fill all input fields")
+        }
         if(birthday[2] >= 2003){
             return alert("You are not eligible to register to facebook!")
         }
