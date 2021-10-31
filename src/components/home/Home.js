@@ -60,7 +60,7 @@ function Home({ user, selected }) {
   // }, [user]);
 
   if (user === false) {
-    history.push("/login");
+    history.push("");
   }
 
   const collapseNavbar = () => {
@@ -249,14 +249,13 @@ function Home({ user, selected }) {
               vertical: "bottom",
               horizontal: "left",
             }}
-            
           >
-            {/* <Typography sx={{ p: 2 }}>The content of the Popover.</Typography> */}
-            <a href="#">
+            <a href={{}}>
               <div className="optionDrop">
                 <img
                   src="https://i.ibb.co/1zmBtwr/84241059-189132118950875-4138507100605120512-n.jpg"
                   className="Avatar"
+                  alt="logo"
                 />
                 <div className="sideinfoDropAvatar">
                   <h1>{user?.displayName}</h1>
@@ -265,8 +264,8 @@ function Home({ user, selected }) {
               </div>
             </a>
             <div className="hr" />
-            <a href="#">
-              <div className="optionDrop">
+            <a>
+              <div className="optionDrop" >
                 <div className="iconDrop">
                   <i className="feedback" />
                 </div>
@@ -276,39 +275,39 @@ function Home({ user, selected }) {
                 </div>
               </div>
             </a>
-            <div className="hr" />
-            <a href="#">
+            {/* <div className="hr" /> */}
+            {/* <afterAll>
               <div className="optionDrop">
                 <div className="iconDrop">
                   <i className="settings" />
                 </div>
                 <h1>Settings & Privacy</h1>
               </div>
-            </a>
-            <a href="#">
+            </afterAll> */}
+            {/* <a>
               <div className="optionDrop">
                 <div className="iconDrop">
                   <i className="helpAndSupport" />
                 </div>
                 <h1>Help & Support</h1>
               </div>
-            </a>
-            <a href="#">
+            </a> */}
+            {/* <a>
               <div className="optionDrop">
                 <div className="iconDrop">
                   <i className="darkMode" />
                 </div>
                 <h1>Dark Mode</h1>
               </div>
-            </a>
-            <a href="#">
+            </a> */}
+            {/* <a>
               <div onClick={logout} className="optionDrop">
                 <div className="iconDrop">
                   <i className="logout" />
                 </div>
                 <h1>Log out</h1>
               </div>
-            </a>
+            </a> */}
           </Popover>
         </div>
       </div>

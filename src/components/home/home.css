@@ -313,6 +313,7 @@
 .optionDrop {
   display: flex;
   flex-direction: row;
+  background-color: #3A3B3C;
 }
 
 .optionDrop h1 {
@@ -386,11 +387,8 @@
 }
 
 .hr {
-  margin-left: 16px;
-    margin-bottom: 10px;
-    margin-right: 16px;
-    margin-top: 8px;
-    border-bottom: 2px solid #3E4042;
+  /* margin-left: 16px; */
+  border-bottom: 2px solid #3E4042;
 }
 
 .sideinfoDrop {

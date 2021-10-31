@@ -1,6 +1,7 @@
 import React from 'react'
 import './SidebarRight.css';
 import Sidebar2Row from './Sidebar2Row';
+import SearchIcon from '@mui/icons-material/Search';
 
 function Sidebarleft() {
     return (
@@ -9,7 +10,7 @@ function Sidebarleft() {
 
             <div class="details">
                 <h1>Contacts</h1>
-                <i class="searchIcon2" />
+                <SearchIcon style={{color: "white"}}/>
                 <i class="more" />
             </div>
             <div class="contacts">
