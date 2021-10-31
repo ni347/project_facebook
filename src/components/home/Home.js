@@ -207,7 +207,7 @@ function Home({ user, selected }) {
           </svg>
         </div>
 
-        <div class="round" onClick={renderProfile}>
+        <div class="round" >
           <i class={`dropdownIcon ${profileDown === true && "blue"}`} />
           <div class="dropdown-content">
             <a href="#">
