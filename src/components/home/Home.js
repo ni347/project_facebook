@@ -109,6 +109,13 @@ function Home({ user, selected }) {
   //   }
   // };
 
+  const logout = () => {
+    if (user) {
+      auth.signOut();
+      history.push("/");
+    }
+  }
+
   return (
     <div className="homeHeader">
       <div className="homeHeaderLogoAndSearch">
@@ -295,7 +302,7 @@ function Home({ user, selected }) {
               </div>
             </a>
             <a href="#">
-              <div className="optionDrop">
+              <div onClick={logout} className="optionDrop">
                 <div className="iconDrop">
                   <i className="logout" />
                 </div>
