@@ -1,7 +1,9 @@
 import React, {useState, useEffect} from "react";
 import Signin from "./components/signin/Signin";
 import Signup from "./components/signup/Signup";
-import Home from "./components/home/Home";
+// import Home from "./components/home/Home";
+import Home from "./components/homeStatic/home";
+
 import Sidebarleft from "./components/home/Sidebarleft";
 import SidebarRight from "./components/home/SidebarRight"
 import Posts from "./components/home/Posts";
@@ -34,7 +36,7 @@ function App() {
             <Signup />
           </Route>
 
-          <Route path="/Home">
+          {/* <Route path="/Home">
             <Home  user={user}/>
             <div className="app__page">
               <Sidebarleft user={user} />
@@ -43,6 +45,10 @@ function App() {
               </div>
             </div>
             <SidebarRight user={user} />
+          </Route> */}
+
+          <Route path="/Home">
+            <Home/>
           </Route>
         </Switch>
       </Router>
