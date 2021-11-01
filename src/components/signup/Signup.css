@@ -1,11 +1,12 @@
 
 .signup{
     height: 100%;
-    background-color: #E9EBEE;
+    background-color: #e9ebee;
     display: flex;
     flex-direction: column;
     /* justify-content: flex-end; */
     align-items: center;
+    overflow: hidden;
 }
 
 .register__logo {
@@ -84,7 +85,7 @@
     vertical-align: middle;
     margin-right: 10px;
     width: 90%;
-    margin-left: 10px;
+    margin-left: -14px;
 }
 .dob{
     font-size: 12px;

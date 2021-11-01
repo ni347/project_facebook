@@ -150,9 +150,9 @@ function Home({ user, selected }) {
             <div className="menu-item">
               <div className="user">
                 <div className="profile">
-                  <img src={hero} alt="" />
+                <img src={iconaccount} alt="" />
                 </div>
-                <h4>Anne</h4>
+                <h4>{user?.displayName}</h4>
               </div>
             </div>
 
