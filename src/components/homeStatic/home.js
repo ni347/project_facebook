@@ -4,6 +4,9 @@ import "./owl.carousel.min.css";
 import React, { useEffect, useState } from "react";
 
 import { auth, db } from "../../firebase";
+import { useHistory } from "react-router-dom";
+
+import Popover from "@mui/material/Popover";
 
 import facebook from "../../images/icons/facebook.svg"
 import home from "../../images/icons/home.svg";
@@ -28,9 +31,35 @@ import st3 from "../../images/stories/st-3.jpeg";
 import page2 from "../../images/stories/page-2.jpg";
 import page3 from "../../images/stories/page-3.jpeg";
 import iconaccount from "../../images/icons/icons8-test-account-16.png";
+import { Button } from "@mui/material";
 
 
 function Home({ user, selected }) {
+
+  const history = useHistory("");
+  const [anchorEl, setAnchorEl] = useState(null);
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const open = Boolean(anchorEl);
+  const id = open ? "simple-popover" : undefined;
+
+  if (user === false) {
+    history.push("");
+  }
+
+  const logout = () => {
+    if (user) {
+      auth.signOut();
+      history.push("/");
+    }
+  }
   
   return (
     <div>
@@ -101,7 +130,18 @@ function Home({ user, selected }) {
             </div>
 
             <div className="icon">
-              <img src={arrow} alt="" />
+              <img src={arrow} alt="" onClick={handleClick}/>
+              <Popover
+            id={id}
+            open={open}
+            anchorEl={anchorEl}
+            onClose={handleClose}
+            anchorOrigin={{
+              vertical: "bottom",
+              horizontal: "left",
+            }}
+            
+          ><Button style={{backgroundColor: "rgb(26, 68, 100)", color: "white"}} onClick={logout}>Logout</Button></Popover>
             </div>
           </div>
         </div>
