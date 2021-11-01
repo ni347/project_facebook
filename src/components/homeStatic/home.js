@@ -1,6 +1,10 @@
 import "./style.css";
 import "./owl.theme.default.css";
-// import "./owl.carousel.min.css";
+import "./owl.carousel.min.css";
+import React, { useEffect, useState } from "react";
+
+import { auth, db } from "../../firebase";
+
 import facebook from "../../images/icons/facebook.svg"
 import home from "../../images/icons/home.svg";
 import hero from "../../images/avatar/hero.png";
@@ -23,8 +27,11 @@ import page1 from "../../images/stories/page-1.jpg";
 import st3 from "../../images/stories/st-3.jpeg";
 import page2 from "../../images/stories/page-2.jpg";
 import page3 from "../../images/stories/page-3.jpeg";
+import iconaccount from "../../images/icons/icons8-test-account-16.png";
 
-function Home() {
+
+function Home({ user, selected }) {
+  
   return (
     <div>
       <nav>
@@ -74,9 +81,10 @@ function Home() {
         <div className="right-side">
           <div className="user">
             <div className="profile">
-              <img src={hero} alt="" />
+              <img src={iconaccount} alt="" />
+              {/* <AccountCircle className="Avatar" style={{ color : "white", fontSize: "50"}}/> */}
             </div>
-            <h4>Anne</h4>
+            <h4>{user?.displayName}</h4>
           </div>
 
           <div className="user-icons">

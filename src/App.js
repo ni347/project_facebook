@@ -48,7 +48,7 @@ function App() {
           </Route> */}
 
           <Route path="/Home">
-            <Home/>
+            <Home user={user}/>
           </Route>
         </Switch>
       </Router>
