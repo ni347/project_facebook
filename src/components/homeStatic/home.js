@@ -227,7 +227,7 @@ function Home({ user, selected }) {
                 <div className="owl-controls">
                     <div className="owl-nav">
                         <div className="controllers nxtBtn">
-                            <img src="img/icons/arrow-right.svg" alt="">
+                            <img src="../../images/icons/arrow-right.svg" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -236,13 +236,13 @@ function Home({ user, selected }) {
                         <div className="overlay first">
                             <div className="create">
                                 <div className="icon">
-                                    <img src="img/icons/plus.svg" alt="">
+                                    <img src="../../images/icons/plus.svg" alt=""/>
                                 </div>
                                 <span>Create a Story</span>
                             </div>
                         </div>
                         <div className="story-image">
-                            <img src="img/avatar/hero.png" alt="">
+                            <img src="../../images/avatar/hero.png" alt=""/>
                         </div>
                     </div>
                    
@@ -251,13 +251,13 @@ function Home({ user, selected }) {
                         <div className="overlay">
                             <div className="person">
                                 <div className="profile">
-                                    <img src="img/avatar/2.jpg" alt="">
+                                    <img src="../../images/avatar/2.jpg" alt=""/>
                                 </div>
                             </div>
                             <h4> samantha john</h4>
                         </div>
                         <div className="story-image">
-                            <img src="img/stories/st-2.jpeg" alt="">
+                            <img src="../../images/stories/st-2.jpeg" alt=""/>
                         </div>
                     </div>
                     
@@ -266,13 +266,13 @@ function Home({ user, selected }) {
                         <div className="overlay">
                             <div className="person">
                                 <div className="profile">
-                                    <img src="img/avatar/3.jpg" alt="">
+                                    <img src="../../images/avatar/3.jpg" alt=""/>
                                 </div>
                             </div>
                             <h4>Omar yassir</h4>
                         </div>
                         <div className="story-image">
-                            <img src="img/stories/st-3.jpeg" alt="">
+                            <img src="../../images/stories/st-3.jpeg" alt=""/>
                         </div>
                     </div>
                   
@@ -281,13 +281,13 @@ function Home({ user, selected }) {
                         <div className="overlay">
                             <div className="person">
                                 <div className="profile">
-                                    <img src="img/avatar/4.jpg" alt="">
+                                    <img src="../../images/avatar/4.jpg" alt=""/>
                                 </div>
                             </div>
                             <h4>amanda cerny</h4>
                         </div>
                         <div className="story-image">
-                            <img src="img/stories/st-4.jpg" alt="">
+                            <img src="../../images/stories/st-4.jpg" alt=""/>
                         </div>
                     </div>
                   
@@ -296,13 +296,13 @@ function Home({ user, selected }) {
                         <div className="overlay">
                             <div className="person">
                                 <div className="profile">
-                                    <img src="img/avatar/5.jpg" alt="">
+                                    <img src="../../images/avatar/5.jpg" alt=""/>
                                 </div>
                             </div>
                             <h4>stacy lopez </h4>
                         </div>
                         <div className="story-image">
-                            <img src="img/stories/st-1.jpeg" alt="">
+                            <img src="../../images/stories/st-1.jpeg" alt=""/>
                         </div>
                     </div>
                
@@ -311,13 +311,13 @@ function Home({ user, selected }) {
                         <div className="overlay">
                             <div className="person">
                                 <div className="profile">
-                                    <img src="img/avatar/6.jpg" alt="">
+                                    <img src="../../images/avatar/6.jpg" alt=""/>
                                 </div>
                             </div>
                             <h4>joshua simon</h4>
                         </div>
                         <div className="story-image">
-                            <img src="img/stories/st-1.jpeg" alt="">
+                            <img src="../../images/stories/st-1.jpeg" alt=""/>
                         </div>
                     </div>
                 
@@ -328,30 +328,30 @@ function Home({ user, selected }) {
                     <div className="input">
                         <div className="user">
                             <div className="profile">
-                                <img src="img/avatar/hero.png" alt="">
+                                <img src="../../images/avatar/hero.png" alt=""/>
                             </div>
                         </div>
-                        <input type="text" placeholder="What on your mind, Anne?" name="" id="">
+                        <input type="text" placeholder="What on your mind, Anne?" name="" id=""/>
                     </div>
                     <div className="media">
                         <div className="category">
                             <div className="option">
                                 <div className="icon">
-                                    <img src="img/icons/video-live.svg" alt="">
+                                    <img src="../../images/icons/video-live.svg" alt=""/>
                                 </div>
                                 <span>Live video</span>
                             </div>
 
                             <div className="option">
                                 <div className="icon">
-                                    <img src="img/icons/photos.svg" alt="">
+                                    <img src="../../images/icons/photos.svg" alt=""/>
                                 </div>
                                 <span>photo/video</span>
                             </div>
 
                             <div className="option">
                                 <div className="icon">
-                                    <img src="img/icons/smile.svg" alt="">
+                                    <img src="../../images/icons/smile.svg" alt=""/>
                                 </div>
                                 <span>feeling/activity</span>
                             </div>
@@ -363,7 +363,7 @@ function Home({ user, selected }) {
                     <div className="upper">
                         <div className="title">
                             <div className="icon">
-                                <img src="img/icons/video-room.svg" alt="">
+                                <img src="../../images/icons/video-room.svg" alt=""/>
                             </div>
                             <span>Rooms</span>
                         </div>
@@ -376,7 +376,7 @@ function Home({ user, selected }) {
                         <div className="item">
                             <div className="user">
                                 <div className="profile">
-                                    <img src="img/avatar/hero.png" alt="">
+                                    <img src="../../images/avatar/hero.png" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -385,7 +385,7 @@ function Home({ user, selected }) {
                         <div className="item">
                             <div className="user">
                                 <div className="profile">
-                                    <img src="img/avatar/1.jpg" alt="">
+                                    <img src="../../images/avatar/1.jpg" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -393,7 +393,7 @@ function Home({ user, selected }) {
                         <div className="item">
                             <div className="user">
                                 <div className="profile">
-                                    <img src="img/avatar/3.jpg" alt="">
+                                    <img src="../../images/avatar/3.jpg" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -401,7 +401,7 @@ function Home({ user, selected }) {
                         <div className="item">
                             <div className="user">
                                 <div className="profile">
-                                    <img src="img/avatar/4.jpg" alt="">
+                                    <img src="../../images/avatar/4.jpg" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -410,7 +410,7 @@ function Home({ user, selected }) {
                         <div className="item">
                             <div className="user">
                                 <div className="profile">
-                                    <img src="img/avatar/2.jpg" alt="">
+                                    <img src="../../images/avatar/2.jpg" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -419,7 +419,7 @@ function Home({ user, selected }) {
                         <div className="item">
                             <div className="user">
                                 <div className="profile">
-                                    <img src="img/avatar/4.jpg" alt="">
+                                    <img src="../../images/avatar/4.jpg" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -428,7 +428,7 @@ function Home({ user, selected }) {
                         <div className="item">
                             <div className="user">
                                 <div className="profile">
-                                    <img src="img/avatar/5.jpg" alt="">
+                                    <img src="../../images/avatar/5.jpg" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -442,7 +442,7 @@ function Home({ user, selected }) {
                             <div className="d-flex">
                                 <div className="user">
                                     <div className="profile">
-                                        <img src="img/avatar/5.jpg" alt="">
+                                        <img src="../../images/avatar/5.jpg" alt=""/>
                                     </div>
                                 </div>
 
@@ -464,13 +464,13 @@ function Home({ user, selected }) {
                         </div>
 
                         <div className="post-img">
-                            <img src="img/posts/1.jpg" alt="">
+                            <img src="../../images/posts/1.jpg" alt=""/>
                         </div>
 
                         <div className="actions-container">
                             <div className="action">
                                 <div className="icon">
-                                    <img src="img/icons/thumbs-up.svg" alt="">
+                                    <img src="../../images/icons/thumbs-up.svg" alt=""/>
                                 </div>
                                 <span>
                                     like
@@ -479,7 +479,7 @@ function Home({ user, selected }) {
 
                             <div className="action">
                                 <div className="icon">
-                                    <img src="img/icons/comment.svg" alt="">
+                                    <img src="../../images/icons/comment.svg" alt=""/>
                                 </div>
                                 <span>
                                     comment
@@ -488,7 +488,7 @@ function Home({ user, selected }) {
 
                             <div className="action">
                                 <div className="icon">
-                                    <img src="img/icons/share.svg" alt="">
+                                    <img src="../../images/icons/share.svg" alt=""/>
                                 </div>
                                 <span>
                                     share
@@ -499,22 +499,22 @@ function Home({ user, selected }) {
                         <div className="write-comment">
                             <div className="user">
                                 <div className="profile">
-                                    <img src="img/avatar/hero.png" alt="">
+                                    <img src="../../images/avatar/hero.png" alt=""/>
                                 </div>
                             </div>
                             <div className="input">
-                                <input type="text" placeholder="Write a comment" name="" id="">
+                                <input type="text" placeholder="Write a comment" name="" id=""/>
                                 <div className="media">
                                     <div className="icon">
-                                        <img src="img/icons/camera.svg" alt="">
+                                        <img src="../../images/icons/camera.svg" alt=""/>
                                     </div>
 
                                     <div className="icon">
-                                        <img src="img/icons/image.svg" alt="">
+                                        <img src="../../images/icons/image.svg" alt=""/>
                                     </div>
 
                                     <div className="icon">
-                                        <img src="img/icons/smile-2.svg" alt="">
+                                        <img src="../../images/icons/smile-2.svg" alt=""/>
                                     </div>
                                 </div>
                             </div>
@@ -538,7 +538,7 @@ function Home({ user, selected }) {
                                 <div className="icon">
                                     &times;
                                 </div>
-                                <img src="img/avatar/1.jpg" alt="">
+                                <img src="../../images/avatar/1.jpg" alt=""/>
                             </div>
 
                             <div className="info">
@@ -558,7 +558,7 @@ function Home({ user, selected }) {
                                 <div className="icon">
                                     &times;
                                 </div>
-                                <img src="img/avatar/4.jpg" alt="">
+                                <img src="../../images/avatar/4.jpg" alt=""/>
                             </div>
 
                             <div className="info">
@@ -578,7 +578,7 @@ function Home({ user, selected }) {
                                 <div className="icon">
                                     &times;
                                 </div>
-                                <img src="img/avatar/3.jpg" alt="">
+                                <img src="../../images/avatar/3.jpg" alt=""/>
                             </div>
 
                             <div className="info">
@@ -598,7 +598,7 @@ function Home({ user, selected }) {
                                 <div className="icon">
                                     &times;
                                 </div>
-                                <img src="img/avatar/2.jpg" alt="">
+                                <img src="../../images/avatar/2.jpg" alt=""/>
                             </div>
 
                             <div className="info">
@@ -629,7 +629,7 @@ function Home({ user, selected }) {
                 <div className="menu-item">
                     <div className="item-row">
                         <div className="icon">
-                            <img src="img/stories/st-2.jpeg" alt="">
+                            <img src="../../images/stories/st-2.jpeg" alt=""/>
                         </div>
                         <h4>Script house </h4>
                     </div>
@@ -638,7 +638,7 @@ function Home({ user, selected }) {
                 <div className="menu-item">
                     <div className="item-row">
                         <div className="icon">
-                            <img src="img/stories/st-1.jpeg" alt="">
+                            <img src="../../images/stories/st-1.jpeg" alt=""/>
                         </div>
                         <h4>omar ui design </h4>
                     </div>
@@ -647,7 +647,7 @@ function Home({ user, selected }) {
                 <div className="menu-item">
                     <div className="item-row  border">
                         <div className="icon more">
-                            <img src="img/icons/arrow-down.svg" alt="">
+                            <img src="../../images/icons/arrow-down.svg" alt=""/>
                         </div>
                         <h4>see more </h4>
                     </div>
@@ -661,7 +661,7 @@ function Home({ user, selected }) {
                 <div className="menu-item">
                     <div className="item-row">
                         <div className="icon not-rounded">
-                            <img src="img/icons/gift.svg" alt="">
+                            <img src="../../images/icons/gift.svg" alt=""/>
                         </div>
                         <h4>it's diana berry's birthday </h4>
                     </div>
@@ -673,70 +673,70 @@ function Home({ user, selected }) {
 
                     <div className="user">
                         <div className="profile">
-                            <img src="img/avatar/1.jpg" alt="">
+                            <img src="../../images/avatar/1.jpg" alt=""/>
                         </div>
                         <h4>diana berry</h4>
                     </div>
 
                     <div className="user">
                         <div className="profile">
-                            <img src="img/avatar/4.jpg" alt="">
+                            <img src="../../images/avatar/4.jpg" alt=""/>
                         </div>
                         <h4>rosie pie</h4>
                     </div>
 
                     <div className="user">
                         <div className="profile">
-                            <img src="img/avatar/2.jpg" alt="">
+                            <img src="../../images/avatar/2.jpg" alt=""/>
                         </div>
                         <h4>samantha jones</h4>
                     </div>
 
                     <div className="user">
                         <div className="profile">
-                            <img src="img/avatar/3.jpg" alt="">
+                            <img src="../../images/avatar/3.jpg" alt=""/>
                         </div>
                         <h4>john doe</h4>
                     </div>
 
                     <div className="user">
                         <div className="profile">
-                            <img src="img/avatar/4.jpg" alt="">
+                            <img src="../../images/avatar/4.jpg" alt=""/>
                         </div>
                         <h4>stacy jr.</h4>
                     </div>
 
                     <div className="user">
                         <div className="profile">
-                            <img src="img/avatar/5.jpg" alt="">
+                            <img src="../../images/avatar/5.jpg" alt=""/>
                         </div>
                         <h4>christin sam</h4>
                     </div>
 
                     <div className="user">
                         <div className="profile">
-                            <img src="img/avatar/6.jpg" alt="">
+                            <img src="../../images/avatar/6.jpg" alt=""/>
                         </div>
                         <h4>kate simon</h4>
                     </div>
 
                     <div className="user">
                         <div className="profile">
-                            <img src="img/avatar/1.jpg" alt="">
+                            <img src="../../images/avatar/1.jpg" alt=""/>
                         </div>
                         <h4>diana berry</h4>
                     </div>
 
                     <div className="user">
                         <div className="profile">
-                            <img src="img/avatar/2.jpg" alt="">
+                            <img src="../../images/avatar/2.jpg" alt=""/>
                         </div>
                         <h4>sarah cerny</h4>
                     </div>
 
                     <div className="user">
                         <div className="profile">
-                            <img src="img/avatar/3.jpg" alt="">
+                            <img src="../../images/avatar/3.jpg" alt=""/>
                         </div>
                         <h4>josh doe</h4>
                     </div>
