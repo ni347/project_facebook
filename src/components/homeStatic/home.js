@@ -4,6 +4,25 @@ import "./owl.theme.default.css";
 import facebook from "../../images/icons/facebook.svg"
 import home from "../../images/icons/home.svg";
 import hero from "../../images/avatar/hero.png";
+import flag from "../../images/icons/flag.svg";
+import tv from "../../images/icons/tv.svg";
+import users from "../../images/icons/users.svg";
+import calendar from "../../images/icons/calendar.svg";
+import plus from "../../images/icons/plus.svg";
+import messenger from "../../images/icons/messenger.svg";
+import bell from "../../images/icons/bell.svg";
+import arrow from "../../images/icons/arrow.svg";
+import shield from "../../images/icons/shield.svg";
+import coloredpeople from "../../images/icons/colored-people.svg";
+import coloredmessenger from "../../images/icons/colored-messenger.svg";
+import coloredflag from "../../images/icons/colored-flag.svg";
+import arrowdown from "../../images/icons/arrow-down.svg";
+import st1 from "../../images/stories/st-1.jpeg";
+import st2 from "../../images/stories/st-2.jpeg";
+import page1 from "../../images/stories/page-1.jpg";
+import st3 from "../../images/stories/st-3.jpeg";
+import page2 from "../../images/stories/page-2.jpg";
+import page3 from "../../images/stories/page-3.jpeg";
 
 function Home() {
   return (
@@ -29,25 +48,25 @@ function Home() {
 
           <div className="tab-icon">
             <div className="icon has-notification">
-              <img src="../../images/icons/flag.svg" alt="" />
+              <img src={flag} alt="" />
             </div>
           </div>
 
           <div className="tab-icon">
             <div className="icon">
-              <img src="../../images/icons/tv.svg" alt="" />
+              <img src={tv} alt="" />
             </div>
           </div>
 
           <div className="tab-icon">
             <div className="icon">
-              <img src="../../images/icons/users.svg" alt="" />
+              <img src={users} alt="" />
             </div>
           </div>
 
           <div className="tab-icon">
             <div className="icon has-notification">
-              <img src="../../images/icons/calendar.svg" alt="" />
+              <img src={calendar} alt="" />
             </div>
           </div>
         </div>
@@ -62,19 +81,19 @@ function Home() {
 
           <div className="user-icons">
             <div className="icon">
-              <img src="../../images/icons/plus.svg" alt="" />
+              <img src={plus} alt="" />
             </div>
 
             <div className="icon has-notification">
-              <img src="../../images/icons/messenger.svg" alt="" />
+              <img src={messenger} alt="" />
             </div>
 
             <div className="icon">
-              <img src="../../images/icons/bell.svg" alt="" />
+              <img src={bell} alt="" />
             </div>
 
             <div className="icon">
-              <img src="../../images/icons/arrow.svg" alt="" />
+              <img src={arrow} alt="" />
             </div>
           </div>
         </div>
@@ -86,7 +105,7 @@ function Home() {
             <div className="menu-item">
               <div className="user">
                 <div className="profile">
-                  <img src="../../images/avatar/hero.png" alt="" />
+                  <img src={hero} alt="" />
                 </div>
                 <h4>Anne</h4>
               </div>
@@ -95,7 +114,7 @@ function Home() {
             <div className="menu-item">
               <div className="item-row">
                 <div className="icon">
-                  <img src="../../images/icons/shield.svg" alt="" />
+                  <img src={shield} alt="" />
                 </div>
                 <h4>COVID-19 Infromation Center </h4>
               </div>
@@ -104,7 +123,7 @@ function Home() {
             <div className="menu-item">
               <div className="item-row">
                 <div className="icon">
-                  <img src="../../images/icons/colored-people.svg" alt="" />
+                  <img src={coloredpeople} alt="" />
                 </div>
                 <h4>Friends </h4>
               </div>
@@ -113,7 +132,7 @@ function Home() {
             <div className="menu-item">
               <div className="item-row">
                 <div className="icon">
-                  <img src="../../images/icons/colored-messenger.svg" alt="" />
+                  <img src={coloredmessenger} alt="" />
                 </div>
                 <h4>Messenger </h4>
               </div>
@@ -122,7 +141,7 @@ function Home() {
             <div className="menu-item">
               <div className="item-row">
                 <div className="icon">
-                  <img src="../../images/icons/colored-flag.svg" alt="" />
+                  <img src={coloredflag} alt="" />
                 </div>
                 <h4>Pages </h4>
               </div>
@@ -131,7 +150,7 @@ function Home() {
             <div className="menu-item">
               <div className="item-row  border">
                 <div className="icon more">
-                  <img src="../../images/icons/arrow-down.svg" alt="" />
+                  <img src={arrowdown} alt="" />
                 </div>
                 <h4>see more </h4>
               </div>
@@ -142,7 +161,7 @@ function Home() {
             <div className="menu-item">
               <div className="item-row">
                 <div className="icon">
-                  <img src="../../images/stories/st-1.jpeg" alt="" />
+                  <img src={st1} alt="" />
                 </div>
                 <h4>Designers house </h4>
               </div>
@@ -151,14 +170,14 @@ function Home() {
             <div className="menu-item">
               <div className="item-row">
                 <div className="icon">
-                  <img src="../../images/stories/st-2.jpeg" alt="" />
+                  <img src={st2} alt="" />
                 </div>
                 <h4>Script house </h4>
               </div>
               <div className="menu-item">
                 <div className="item-row">
                   <div className="icon">
-                    <img src="../../images/stories/page-1.jpg" alt="" />
+                    <img src={page1} alt="" />
                   </div>
                   <h4>ui ux Designers workshop </h4>
                 </div>
@@ -167,7 +186,7 @@ function Home() {
               <div className="menu-item">
                 <div className="item-row">
                   <div className="icon">
-                    <img src="../../images/stories/st-3.jpeg" alt="" />
+                    <img src={st3} alt="" />
                   </div>
                   <h4>netflix movies recommends </h4>
                 </div>
@@ -176,7 +195,7 @@ function Home() {
               <div className="menu-item">
                 <div className="item-row">
                   <div className="icon">
-                    <img src="../../images/stories/page-2.jpg" alt="" />
+                    <img src={page2} alt="" />
                   </div>
                   <h4>the futur </h4>
                 </div>
@@ -185,7 +204,7 @@ function Home() {
               <div className="menu-item">
                 <div className="item-row">
                   <div className="icon">
-                    <img src="../../images/stories/page-3.jpeg" alt="" />
+                    <img src={page3} alt="" />
                   </div>
                   <h4>aj smart </h4>
                 </div>
