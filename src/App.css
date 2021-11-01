@@ -1,14 +1,14 @@
-body {
+/* body {
   background-color: #18191A;
   overflow-x: hidden;
 }
 
 .app__page {
   display: flex;
-  /* margin-top: 500px; */
+  margin-top: 500px;
 }
 
 .app__posts {
   display: flex;
   justify-content: center;
-}
+} */

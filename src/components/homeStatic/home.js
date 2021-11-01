@@ -1,9 +1,6 @@
-import "./style.css";
-import "./owl.theme.default.css";
-import "./owl.carousel.min.css";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
-import { auth, db } from "../../firebase";
+import { auth } from "../../firebase";
 import { useHistory } from "react-router-dom";
 
 import Popover from "@mui/material/Popover";
@@ -785,10 +782,6 @@ function Home({ user, selected }) {
             </div>
         </div>
       </div>
-
-      {/* <script src="js/jquery.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/index.js"></script> */}
     </div>
   );
 }
