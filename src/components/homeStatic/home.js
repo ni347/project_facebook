@@ -138,7 +138,7 @@ function Home({ user, selected }) {
             </div>
 
             <div className="menu-item">
-              <div className="item-row">
+              <div className="item-row"> 
                 <div className="icon">
                   <img src={coloredmessenger} alt="" />
                 </div>
@@ -221,7 +221,7 @@ function Home({ user, selected }) {
           </div>
         </div>
 
-        {/* <div className="posts">
+        <div className="posts">
            
             <div className="stories">
                 <div className="owl-controls">
@@ -743,7 +743,7 @@ function Home({ user, selected }) {
 
                 </div>
             </div>
-        </div> */}
+        </div>
       </div>
 
       {/* <script src="js/jquery.min.js"></script>
