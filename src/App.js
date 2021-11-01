@@ -4,6 +4,7 @@ import Signup from "./components/signup/Signup";
 import Home from "./components/home/Home";
 import Sidebarleft from "./components/home/Sidebarleft";
 import SidebarRight from "./components/home/SidebarRight"
+import Posts from "./components/home/Posts";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import {auth } from "./firebase";
@@ -37,7 +38,9 @@ function App() {
             <Home  user={user}/>
             <div className="app__page">
               <Sidebarleft user={user} />
-
+              <div className="app__posts">
+              <Posts user={user} />
+              </div>
             </div>
             <SidebarRight user={user} />
           </Route>
