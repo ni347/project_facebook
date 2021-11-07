@@ -242,7 +242,7 @@ function Home({ user, selected }) {
                   <div className="icon">
                     <img src={page2} alt="" />
                   </div>
-                  <h4>the futur </h4>
+                  <h4>the future </h4>
                 </div>
               </div>
 
@@ -279,7 +279,8 @@ function Home({ user, selected }) {
                             </div>
                         </div>
                         <div className="story-image">
-                            <img src="../../images/avatar/hero.png" alt=""/>
+                            {/* <img src="../../images/avatar/hero.png" alt=""/> */}
+                            <img src={iconaccount} alt="" />
                         </div>
                     </div>
                    
@@ -291,7 +292,7 @@ function Home({ user, selected }) {
                                     <img src="../../images/avatar/2.jpg" alt=""/>
                                 </div>
                             </div>
-                            <h4> samantha john</h4>
+                            <h4> Kiran Kumar Verma</h4>
                         </div>
                         <div className="story-image">
                             <img src="../../images/stories/st-2.jpeg" alt=""/>
@@ -306,7 +307,7 @@ function Home({ user, selected }) {
                                     <img src="../../images/avatar/3.jpg" alt=""/>
                                 </div>
                             </div>
-                            <h4>Omar yassir</h4>
+                            <h4>Abhinav Jain</h4>
                         </div>
                         <div className="story-image">
                             <img src="../../images/stories/st-3.jpeg" alt=""/>
@@ -321,7 +322,7 @@ function Home({ user, selected }) {
                                     <img src="../../images/avatar/4.jpg" alt=""/>
                                 </div>
                             </div>
-                            <h4>amanda cerny</h4>
+                            <h4>Nischal</h4>
                         </div>
                         <div className="story-image">
                             <img src="../../images/stories/st-4.jpg" alt=""/>
@@ -336,7 +337,7 @@ function Home({ user, selected }) {
                                     <img src="../../images/avatar/5.jpg" alt=""/>
                                 </div>
                             </div>
-                            <h4>stacy lopez </h4>
+                            <h4>Sourabh </h4>
                         </div>
                         <div className="story-image">
                             <img src="../../images/stories/st-1.jpeg" alt=""/>
@@ -351,7 +352,7 @@ function Home({ user, selected }) {
                                     <img src="../../images/avatar/6.jpg" alt=""/>
                                 </div>
                             </div>
-                            <h4>joshua simon</h4>
+                            <h4>Lakshu</h4>
                         </div>
                         <div className="story-image">
                             <img src="../../images/stories/st-1.jpeg" alt=""/>
@@ -365,7 +366,8 @@ function Home({ user, selected }) {
                     <div className="input">
                         <div className="user">
                             <div className="profile">
-                                <img src="../../images/avatar/hero.png" alt=""/>
+                                {/* <img src="../../images/avatar/hero.png" alt=""/> */}
+                                <img src={iconaccount} alt="" />
                             </div>
                         </div>
                         <input type="text" placeholder="What on your mind, Anne?" name="" id=""/>
@@ -413,7 +415,8 @@ function Home({ user, selected }) {
                         <div className="item">
                             <div className="user">
                                 <div className="profile">
-                                    <img src="../../images/avatar/hero.png" alt=""/>
+                                    {/* <img src="../../images/avatar/hero.png" alt=""/> */}
+                                    <img src={iconaccount} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -536,7 +539,8 @@ function Home({ user, selected }) {
                         <div className="write-comment">
                             <div className="user">
                                 <div className="profile">
-                                    <img src="../../images/avatar/hero.png" alt=""/>
+                                    {/* <img src="../../images/avatar/hero.png" alt=""/> */}
+                                    <img src={iconaccount} alt="" />
                                 </div>
                             </div>
                             <div className="input">
@@ -580,7 +584,7 @@ function Home({ user, selected }) {
 
                             <div className="info">
                                 <h4>
-                                    rosie pie
+                                    Preeti Tyagi
                                 </h4>
                                 <span>4 mutual friend</span>
                                 <button>
@@ -600,7 +604,7 @@ function Home({ user, selected }) {
 
                             <div className="info">
                                 <h4>
-                                    sarah jones
+                                    Priya
                                 </h4>
                                 <span>4 mutual friend</span>
                                 <button>
@@ -620,7 +624,7 @@ function Home({ user, selected }) {
 
                             <div className="info">
                                 <h4>
-                                    chris doe
+                                    Vipin
                                 </h4>
                                 <span>4 mutual friend</span>
                                 <button>
@@ -640,7 +644,7 @@ function Home({ user, selected }) {
 
                             <div className="info">
                                 <h4>
-                                    katie adam
+                                    Vaishali
                                 </h4>
                                 <span>4 mutual friend</span>
                                 <button>
@@ -712,70 +716,70 @@ function Home({ user, selected }) {
                         <div className="profile">
                             <img src="../../images/avatar/1.jpg" alt=""/>
                         </div>
-                        <h4>diana berry</h4>
+                        <h4>Yachna</h4>
                     </div>
 
                     <div className="user">
                         <div className="profile">
                             <img src="../../images/avatar/4.jpg" alt=""/>
                         </div>
-                        <h4>rosie pie</h4>
+                        <h4>Nandini</h4>
                     </div>
 
                     <div className="user">
                         <div className="profile">
                             <img src="../../images/avatar/2.jpg" alt=""/>
                         </div>
-                        <h4>samantha jones</h4>
+                        <h4>Dimple</h4>
                     </div>
 
                     <div className="user">
                         <div className="profile">
                             <img src="../../images/avatar/3.jpg" alt=""/>
                         </div>
-                        <h4>john doe</h4>
+                        <h4>Shubham</h4>
                     </div>
 
                     <div className="user">
                         <div className="profile">
                             <img src="../../images/avatar/4.jpg" alt=""/>
                         </div>
-                        <h4>stacy jr.</h4>
+                        <h4>Aarti</h4>
                     </div>
 
                     <div className="user">
                         <div className="profile">
                             <img src="../../images/avatar/5.jpg" alt=""/>
                         </div>
-                        <h4>christin sam</h4>
+                        <h4>Pooja</h4>
                     </div>
 
                     <div className="user">
                         <div className="profile">
                             <img src="../../images/avatar/6.jpg" alt=""/>
                         </div>
-                        <h4>kate simon</h4>
+                        <h4>Aayan</h4>
                     </div>
 
                     <div className="user">
                         <div className="profile">
                             <img src="../../images/avatar/1.jpg" alt=""/>
                         </div>
-                        <h4>diana berry</h4>
+                        <h4>Lakshita</h4>
                     </div>
 
                     <div className="user">
                         <div className="profile">
                             <img src="../../images/avatar/2.jpg" alt=""/>
                         </div>
-                        <h4>sarah cerny</h4>
+                        <h4>Sushmita</h4>
                     </div>
 
                     <div className="user">
                         <div className="profile">
                             <img src="../../images/avatar/3.jpg" alt=""/>
                         </div>
-                        <h4>josh doe</h4>
+                        <h4>Ajay</h4>
                     </div>
 
                 </div>
